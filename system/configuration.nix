@@ -8,7 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./xorg/xorg.nix
+      ./xserver/xserver.nix
+      ./xserver/lightdm.nix
     ];
 
   # Bootloader.
