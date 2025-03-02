@@ -2,16 +2,12 @@
 
 {
   programs.neovim = {
-    enable = true;
-    defaultEditor = true;
-    configure = {
-      
-    };
-    # package = with pkgs; [];
+    viAlias = true;
+    vimAlias = true;
+    extraConfig = builtins.readFile ./nvim/init.vim;
   };
-
   home.file.".config/nvim" = {
-    source = "./nvim";
+    source = ./nvim;
     recursive = true;
   };
 }
