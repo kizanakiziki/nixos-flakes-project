@@ -2,6 +2,8 @@
 title: NixOS Flake w/ Home Manager Installation
 ---
 
+This README still in development.
+
 # Pre Installation
 # Installation
 # Post Installation
